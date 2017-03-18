@@ -1,0 +1,40 @@
+<!--main.html-->
+<form class="form-group" >
+ <h2 style="color: black">Main View</h1>
+   <div class="container well col-md-10">
+    <div class="form-group col-md-4" style="color: black">
+        <label class="label">Position 1</label>
+        <input type="text" class="form-control"  ng-model="Pos" ng-blur="ajaxPost('Pos1', $event.target.value)">
+        <p/>
+        <label class="label">Drehzahl 1</label>
+        <input type="text" class="form-control" ng-model="Drehzahl" ng-blur="ajaxPost('Drehz1', $event.target.value)" />
+        <p/>
+        <label class="label">Beschleunigung 1</label>
+        <input type="text" class="form-control" ng-model="value" ng-blur="ajaxPost('Beschl1', $event.target.value)"/>
+        <p/>
+        <label class="label">Bremsung 1</label>
+        <input type="text" class="form-control" ng-model="value" ng-blur="ajaxPost('Brems1', $event.target.value)"/>
+    </div>
+    <div class="form-group col-md-4" style="color: black">
+        <label class="label">Position 2</label>
+        <input type="text" class="form-control"  ng-model="Pos" ng-blur="ajaxPost('Pos2', $event.target.value)">
+        <p/>
+        <label class="label">Dehzahl 2</label>
+        <input type="text" class="form-control" ng-model="Drehzahl" ng-blur="ajaxPost('Drehz2', $event.target.value)" />
+        <p/>
+        <label class="label">Beschleunigung 2</label>
+        <input type="text" class="form-control" ng-model="value" ng-blur="ajaxPost('Beschl2', $event.target.value)"/>
+        <p/>
+        <label class="label">Bremsung 2</label>
+        <input type="text" class="form-control" ng-model="value" ng-blur="ajaxPost('Brems2', $event.target.value)"/>
+    </div>
+   </div> 
+<div class="clearfix"></div>
+<button ng-mousedown="ajaxPost('Start', 'true')" class="btn btn-info block col-md-2">Start</button>
+<div/>
+<button ng-mousedown="ajaxPost('Start', 'false')" class="btn btn-warning block col-md-2 col-md-offset-1 ">Stop</button>
+</form>
+
+
+
+        

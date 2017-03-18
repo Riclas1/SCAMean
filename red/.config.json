@@ -422,6 +422,73 @@
      "file": "/home/pi/SCA/SCAMean/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-contrib-opcua": {
+   "name": "node-red-contrib-opcua",
+   "version": "0.2.14",
+   "local": false,
+   "nodes": {
+    "OpcUa-Item": {
+     "name": "OpcUa-Item",
+     "types": [
+      "OpcUa-Item"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-opcua",
+     "file": "/home/pi/SCA/SCAMean/node_modules/node-red-contrib-opcua/opcua/101-opcuaitem.js"
+    },
+    "OpcUa-Client": {
+     "name": "OpcUa-Client",
+     "types": [
+      "OpcUa-Client"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-opcua",
+     "file": "/home/pi/SCA/SCAMean/node_modules/node-red-contrib-opcua/opcua/102-opcuaclient.js"
+    },
+    "OpcUa-Browser": {
+     "name": "OpcUa-Browser",
+     "types": [
+      "OpcUa-Browser"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-opcua",
+     "file": "/home/pi/SCA/SCAMean/node_modules/node-red-contrib-opcua/opcua/103-opcuabrowser.js"
+    },
+    "OpcUa-Server": {
+     "name": "OpcUa-Server",
+     "types": [
+      "OpcUa-Server"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-opcua",
+     "file": "/home/pi/SCA/SCAMean/node_modules/node-red-contrib-opcua/opcua/104-opcuaserver.js"
+    },
+    "OpcUa-Endpoint": {
+     "name": "OpcUa-Endpoint",
+     "types": [
+      "OpcUa-Endpoint"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-opcua",
+     "file": "/home/pi/SCA/SCAMean/node_modules/node-red-contrib-opcua/opcua/105-opcuaendpoint.js"
+    },
+    "OpcUa-Event": {
+     "name": "OpcUa-Event",
+     "types": [
+      "OpcUa-Event"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-opcua",
+     "file": "/home/pi/SCA/SCAMean/node_modules/node-red-contrib-opcua/opcua/106-opcuaevent.js"
+    }
+   }
   }
  },
  "_credentialSecret": "51ba8ebeba86adfde7db87e503f0a0ae41d2103989a640cdf8db135c98f381f3"
